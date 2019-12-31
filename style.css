@@ -1,0 +1,63 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h3, h4, h5, h6 {
+  font-size: 900;
+}
+
+h1, h3 {
+  text-align: center;
+  font-family: 標楷體;
+}
+
+h4 {
+  letter-spacing: 3px;
+  line-height: 36px;
+}
+
+header.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(https://scontent.ftpe7-2.fna.fbcdn.net/v/t1.0-9/81380928_167484154600565_4049149953824522240_o.png?_nc_cat=104&_nc_ohc=PDjE6a5eR70AQknHsAgFwJBUveOIg--4iGmJ7EKrFFtLgb-twUWWwbC7g&_nc_ht=scontent.ftpe7-2.fna&oh=861157c8840174051ec30eb4182298c2&oe=5E6FB50F);
+  background-size: contain;
+  background-attachment: fixed;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 100px 0px;
+}
+header.jumbotron hr {
+  max-width: 300px;
+  border: solid 2px #bbded6;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.8);
+}
+header.jumbotron section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #bbded6;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://scontent.ftpe7-2.fna.fbcdn.net/v/t1.0-9/69721873_125837015431946_8155121221168529408_n.jpg?_nc_cat=109&_nc_ohc=31U2HBVX-AkAQlNueT4AxUMHI-pjGsLXqv_eflNFJ3jJk7Qs6e1g3ez1g&_nc_ht=scontent.ftpe7-2.fna&oh=5116bc69c39b82f82e4a3369d4e89c30&oe=5EA9F330);
+  height: 450px;
+  background-size: cover;
+  mix-blend-mode: multiply;
+}
+
+h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_about img {
+  width: 100%;
+}
