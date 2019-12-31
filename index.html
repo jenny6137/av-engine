@@ -3,68 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <title>AV-Engine</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <stlye>
 
-</head>
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header"><a class="navbar-brand" href="#">AV-Engine</a></div>
-    <div class="nav navbar-nav navbar-right">
-      <li><a href="#section_ask">簡介 ABOUT</a></li>
-      <li><a href="#section_about">服務 SERVICE</a></li>
-      <li> <a href="#section_video">影片 VIDEO</a></li>
-      <li><a href="https://www.youtube.com/channel/UCrwOXjSaufhSXfNIpEzMDYw?view_as=subscriber">YOUTUBE</a></li>
-    </div>
-  </div>
-</nav>
-<header class="jumbotron">
-  <div class="container">
-    <h1>影擎科技股份有限公司</h1>
-    <hr/>
-    <h3>AV-Engine Technology Co., Ltd</h3>
-  </div>
-</header>
-<section id="section_ask">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-5 img"></div>
-      <div class="col-sm-7">
-        <h1>關於影擎</h1>
-        <h4>我們是一群專業的攝影直播團隊，搭配高階的設備記錄高畫質的活動畫面，同時還有專業的剪輯人員剪輯活動的精采片段，做過許多大型的活動，例如:華碩 GOGORO SAMSUNG , 經驗充沛搭配過多間廠商。</h4>
-        <h1>聯繫方式</h1>
-        <h4>地址:台北市內湖區洲子街196號8樓</h4>
-        <h4>電話:02-26579150</h4>
-        <h4>Gmail:markham@av-engine.com</h4>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="section_about">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <h3>服務項目</h3><img src="https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.0-9/78190826_156588575690123_6974049556010893312_n.jpg?_nc_cat=107&amp;_nc_ohc=vTGnsntA0LsAQmlyAD4O67JRghuWWZFCR5sG35UaB7TFAMYlyEBUmMfkw&amp;_nc_ht=scontent.ftpe7-4.fna&amp;oh=e6b8b34f3a19a231c9b210e2047e1503&amp;oe=5EB42CD6"/>
-        <h4>&nbsp;&nbsp;&nbsp;活動直播/活動攝影/影片剪輯/字卡圖片後製/器材租賃</h4>
-      </div>
-      <div class="col-sm-6">
-        <h3>服務對象</h3><img src="https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.0-9/80675496_167487034600277_6480649043100827648_n.jpg?_nc_cat=105&amp;_nc_ohc=XqjQtDeXE30AQmK2xq_N1BqL7udgeRP9NFWA7-83dWdGuDFdQlncYuYDw&amp;_nc_ht=scontent.ftpe7-4.fna&amp;oh=7f81dc0cf2c9c9f0d43bc708db1d9e24&amp;oe=5EABD82C"/>
-        <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;各大廠商/學校活動/節目直播/商品發表會等等</h4>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="section_video">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h1>活動影片 VIDEO</h1>
-        <hr/>
-      </div>
-      <div class="col-sm-12">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Dr-kHvbexrU" allowfullscreen=""></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h3, h4, h5, h6 {
+  font-size: 900;
+}
+
+h1, h3 {
+  text-align: center;
+  font-family: 標楷體;
+}
+
+h4 {
+  letter-spacing: 3px;
+  line-height: 36px;
+}
+
+header.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(https://scontent.ftpe7-2.fna.fbcdn.net/v/t1.0-9/81380928_167484154600565_4049149953824522240_o.png?_nc_cat=104&_nc_ohc=PDjE6a5eR70AQknHsAgFwJBUveOIg--4iGmJ7EKrFFtLgb-twUWWwbC7g&_nc_ht=scontent.ftpe7-2.fna&oh=861157c8840174051ec30eb4182298c2&oe=5E6FB50F);
+  background-size: contain;
+  background-attachment: fixed;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 100px 0px;
+}
+header.jumbotron hr {
+  max-width: 300px;
+  border: solid 2px #bbded6;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.8);
+}
+header.jumbotron section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #bbded6;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://scontent.ftpe7-2.fna.fbcdn.net/v/t1.0-9/69721873_125837015431946_8155121221168529408_n.jpg?_nc_cat=109&_nc_ohc=31U2HBVX-AkAQlNueT4AxUMHI-pjGsLXqv_eflNFJ3jJk7Qs6e1g3ez1g&_nc_ht=scontent.ftpe7-2.fna&oh=5116bc69c39b82f82e4a3369d4e89c30&oe=5EA9F330);
+  height: 450px;
+  background-size: cover;
+  mix-blend-mode: multiply;
+}
+
+h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_about img {
+  width: 100%;
+}
+
+    </body>
+
+</html>
